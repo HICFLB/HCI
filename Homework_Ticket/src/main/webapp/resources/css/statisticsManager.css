@@ -1,0 +1,52 @@
+.statistics_pane{
+    margin-bottom: 10px;
+    width: 1000px;
+    margin-top:10px;
+    margin-left:265px;
+    min-height: 546px;
+    height: auto;
+    border-radius:3px;
+    overflow: hidden;
+    position: relative;
+    border: 1px solid #eaeaea;
+    background: #fff;
+}
+#venue_pie ,#finance_pie{
+    margin-left: 80px;
+}
+#user_pie{
+    margin-left: 80px;
+    margin-top:45px;
+}
+.base_info{
+    color: #555;
+
+}
+.base_info p{
+    float: left;
+    margin-left: 30px;
+}
+a:hover, .filter-con .active, .filter-con a:hover {
+    background:#f85709;
+    color: #fff;
+}
+#venueNum, #performanceNum{
+    margin-left: 0px;
+    font-size: 18px;
+    margin-top:13px;
+}
+#venue_bar,#finance_bar{
+    float:right;
+    margin-right: 20px;
+    margin-top: -370px;
+}
+#user_bar{
+    float:right;
+    margin-right: 20px;
+    margin-top: -400px;
+}
+.pie_title{
+    font-size: 18px;
+    color: #555;
+    margin-left: 200px;
+}

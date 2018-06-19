@@ -1,0 +1,158 @@
+body{
+    background: lightgrey;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.clear:after {
+    content: '\20';
+    display: block;
+    height: 0;
+    clear: both;
+}
+
+.wrap {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 20px 0;
+    background-color: #fff;
+}
+
+.header_left {
+    float: left;
+}
+.header_left{
+    width: 126px;
+    height: 47px;
+    padding-right: 20px;
+    overflow: hidden;
+    float: left;
+    display: inline-block;
+    /*    background-image: url(//dui.dmcdn.cn/dm_2015/index/img/logo-334-120.png);*/
+    background-repeat: no-repeat;
+    background-size: 126px 47px;
+}
+.header_left .header_logo img {
+    display: none;
+}
+.home_header {
+    height: 87px;
+    border-bottom: 1px solid #f5f5f5;
+    background-color: #fff;
+}
+.header_right {
+    float:right;
+}
+
+.no_user a {
+    display: block;
+    width: 120px;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    font-size: 14px;
+    border: 1px solid #e3e3e3;
+    margin-top: 3px;
+    float: right;
+    text-decoration: none;
+    color: grey;
+}
+
+.no_user a:hover {
+    border: 1px solid #eee;
+    color: deepskyblue;
+}
+
+.user_info {
+    margin-top: 16px;
+}
+.user_info .vip{
+    background-color: lightblue;
+    font-size: 12px;
+    color: #fff;
+}
+.user_info a {
+    display: inline-block;
+    padding: 0 7px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    font-size: 14px;
+    line-height: 22px;
+    color: #5a5a5a;
+}
+.user_info a:hover {
+    color: 000;
+}
+
+.header_logo {
+    line-height: 47px;
+    font-size: 28px;
+    color: #333;
+    font-family: Microsoft YaHei;
+    border-left: 1px solid #e5e5e5;
+    padding-left: 20px;
+    float: left;
+}
+
+.main_bottom {
+    height: 70px;
+    border-bottom: 1px solid #f5f5f5;
+    background-color: #fff;
+}
+
+a, a:active, a:focus, a:hover {
+    text-decoration: none;
+    outline: 0;
+}
+
+
+.list_pane {
+    margin-bottom: 10px;
+    width: 1000px;
+    margin-top:10px;
+    margin-left:265px;
+    min-height: 546px;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+    border: 1px solid #eaeaea;
+    background: #fff;
+}
+.filter{
+    border-bottom: 1px dashed #555;
+    padding: 10px 20px 10px 0;
+    margin: 15px 29px;
+    overflow: hidden;
+}
+.filter_name {
+    float: left;
+    width: 76px;
+    font-size: 16px;
+    color: #999;
+    line-height: 22px;
+}
+.filter_all {
+    float: left;
+    position: relative;
+    z-index: 1;
+}
+.filter_all a, .filter-con a {
+    display: inline-block;
+    padding: 0 7px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 2px;
+    color: #333;
+}
+.filter_all .on, .filter_all a:hover, .filter-con .on, .filter-con a:hover {
+    background: #f85709;
+    color: #fff;
+}
+.filter .line {
+    color: #555;
+    margin: 0 7px;
+}

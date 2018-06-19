@@ -1,0 +1,95 @@
+.list_item {
+    background-color: #eee;
+    width: 940px;
+    min-height: 310px;
+    margin: 15px 29px;
+}
+.info{
+    float: left;
+}
+.por_title {
+    color: #333;
+    float: left;
+    margin-left:30px;
+    /*! width:180px; */
+    margin-top:25px;
+    font-size: 18px;
+}
+.por_price {
+    width: 360px;
+    margin-left: 30px;
+    margin-top:70px;
+    color: #666;
+    font-size: 14px;
+
+}
+.por_type{
+    width: 360px;
+    margin-left: 30px;
+    margin-top:25px;
+    color: #666;
+    font-size: 14px;
+}
+.por_loc{
+    width: 360px;
+    margin-left: 30px;
+    margin-top:25px;
+    color: #666;
+    font-size: 14px;
+}
+.rmb {
+    font-family: arial;
+    font-style: normal;
+    color: #f96c02;
+}
+
+.num {
+    font-size: 20px;
+    color: #f96c02;
+}
+
+.por_time {
+    width: 360px;
+    margin-left: 30px;
+    margin-top:25px;
+    color: #666;
+    font-size: 14px;
+}
+
+.por_location {
+    width: 360px;
+    margin-left: 30px;
+    margin-top:25px;
+    color: #666;
+    font-size: 14px;
+}
+
+.purchase_btn {
+    float: right;
+    margin-right: 70px;
+    margin-top:250px;
+    text-align: center;
+    font-size: 16px;
+}
+.purchase_btn a {
+    border-color: #ff4a1e;
+    color: #fff;
+    background: #ff4a1e;
+    border-radius: 3px;
+    padding: 7px 18px;
+}
+.introduction_info{
+    margin-left: 30px;
+    font-size: 20px;
+    color: #555;
+}
+.perform_img{
+    float: left;
+    margin-left: 20px;
+    padding-top:20px;
+}
+
+.perform_img img{
+    height: 270px;
+}
+

@@ -1,0 +1,86 @@
+li {
+    list-style: none;
+}
+.personal_info {
+    min-height: 400px;
+}
+.profile_pane {
+    margin-bottom: 10px;
+    width: 1000px;
+    margin-top:10px;
+    margin-left:265px;
+    min-height: 546px;
+    height: auto;
+    /*! overflow: hidden; */
+    position: relative;
+    border: 1px solid #eaeaea;
+    background: #fff;
+}
+
+.box-choice ul {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #dddddd;
+    overflow: hidden;
+}
+
+.box-choice li:first-child {
+    overflow: hidden;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+.box-choice ul .on a {
+    color: #fff;
+    background: #0099e5;
+    border: 1px solid #0099e5;
+}
+.box-choice ul li {
+    float: left;
+}
+
+.box-choice ul li a {
+    border: 1px solid #dddddd;
+    font-size: 16px;
+    padding-top: 3px;
+    display: block;
+    width: 115px;
+    text-align: center;
+    color: #666;
+    height: 28px;
+    line-height: 24px;
+}
+input[type="button"]:hover{
+    background: rgb(77, 140, 70);
+}
+input[type="button"]{
+    background: rgba(22, 115, 11, 0.38);
+    border: 0 none;
+    width: 90px;
+    height: 30px;
+    border-radius: 3px;
+    color: white;
+}
+.in{
+    line-height: 70px;
+    width: 550px;
+    margin: 0 320px;
+    font-size: 14pt;
+    color: #555;
+}
+input {
+    border:none;
+}
+.has_border {
+    padding-left:10px;
+    width: 170px;
+    height: 25px;
+    border: solid 1px lightgrey;
+    border-radius: 3px;
+}
+
+#old_pwd,#new_pwd,#confirm_pwd{
+    padding-left:10px;
+    width: 170px;
+    height: 25px;
+    border: solid 1px lightgrey;
+    border-radius: 3px;
+}
